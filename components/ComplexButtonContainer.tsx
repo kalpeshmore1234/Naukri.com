@@ -13,7 +13,7 @@ type ButtonProps = {
 };
 
 import { Button } from './ui/button';
-function ButtonContainer({ currentPage, totalPages }: ButtonContainerProps) {
+const ButtonContainer = ({ currentPage, totalPages }: ButtonContainerProps) => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();

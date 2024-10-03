@@ -3,7 +3,6 @@ import JobCard from './JobCard';
 import { useSearchParams } from 'next/navigation';
 import { getAllJobsAction } from '@/utils/actions';
 import { useQuery } from '@tanstack/react-query';
-import ButtonContainer from './ButtonContainer';
 import ComplexButtonContainer from './ComplexButtonContainer';
 function JobsList() {
   const searchParams = useSearchParams();
